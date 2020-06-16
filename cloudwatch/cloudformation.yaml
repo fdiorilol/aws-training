@@ -1,0 +1,76 @@
+Resources:
+  awstraininghxyeventRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Description: invoke lambda
+      State: ENABLED
+      ScheduleExpression: rate(1 minute)
+      Targets:
+        - Arn:
+            Fn::GetAtt:
+              - PutMetricsToLambda
+              - Arn
+          Input: '{"operation":"call-lambda"}'
+          Id: hxyinvokelambda
+
+  cloudwatchPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref PutMetricsToLambda
+      Action: lambda:InvokeFunction
+      Principal: events.amazonaws.com
+      SourceArn:
+        Fn::GetAtt:
+          - awstraininghxyeventRule
+          - Arn
+          
+  SNSTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      Subscription:
+        - Endpoint: "xingyang.han@thoughtworks.com"
+          Protocol: email
+  PutMetricsToLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: index.lambda_handler
+      Runtime: python3.7
+      Role: arn:aws:iam::494526681395:role/for-aws-training
+      Code:
+        ZipFile: |
+          import boto3
+          import random
+          def lambda_handler(event, context):
+              cloudwatch = boto3.client('cloudwatch')
+              result = cloudwatch.put_metric_data(
+                  Namespace = 'aws-training-hxy',
+                  MetricData = [
+                      {
+                          'MetricName': 'metrics',
+                          'Dimensions': [
+                              {
+                                  'Name': 'Number',
+                                  'Value': 'number'
+                              }
+                          ],
+                          'Value': random.randint(1, 20)
+                      },
+                  ]
+              )
+  awstraininghxyAlarm:
+    Type: "AWS::CloudWatch::Alarm"
+    Properties:
+      AlarmName: awstraininghxyAlarm
+      AlarmDescription: Alarm condition
+      MetricName: metrics
+      Namespace: aws-training-hxy
+      Statistic: Maximum
+      Period: "10"
+      EvaluationPeriods: "1"
+      Threshold: "18.5"
+      ComparisonOperator: GreaterThanThreshold
+      Dimensions:
+        - Name: "Number"
+          Value: "number"
+      AlarmActions:
+        - Ref: SNSTopic

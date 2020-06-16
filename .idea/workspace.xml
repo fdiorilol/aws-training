@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a68a869-a026-4849-ad4c-c0989b928c9f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bf2aRpUtBbOygZu2WXXbH4yp5g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="aws" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lambda_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.lambda" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a68a869-a026-4849-ad4c-c0989b928c9f" name="Default Changelist" comment="" />
+      <created>1589008890659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589008890659</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1616" height="280" key="GridCell.Tab.0.bottom" timestamp="1589261276026">
+      <screen x="0" y="23" width="1635" height="1027" />
+    </state>
+    <state width="1616" height="280" key="GridCell.Tab.0.bottom/-1200.-847.1200.1897/0.23.1639.1027@0.23.1639.1027" timestamp="1589011128787" />
+    <state width="1616" height="280" key="GridCell.Tab.0.bottom/0.23.1635.1027@0.23.1635.1027" timestamp="1589261276026" />
+    <state width="1616" height="280" key="GridCell.Tab.0.center" timestamp="1589261276026">
+      <screen x="0" y="23" width="1635" height="1027" />
+    </state>
+    <state width="1616" height="280" key="GridCell.Tab.0.center/-1200.-847.1200.1897/0.23.1639.1027@0.23.1639.1027" timestamp="1589011128786" />
+    <state width="1616" height="280" key="GridCell.Tab.0.center/0.23.1635.1027@0.23.1635.1027" timestamp="1589261276026" />
+    <state width="1616" height="280" key="GridCell.Tab.0.left" timestamp="1589261276025">
+      <screen x="0" y="23" width="1635" height="1027" />
+    </state>
+    <state width="1616" height="280" key="GridCell.Tab.0.left/-1200.-847.1200.1897/0.23.1639.1027@0.23.1639.1027" timestamp="1589011128786" />
+    <state width="1616" height="280" key="GridCell.Tab.0.left/0.23.1635.1027@0.23.1635.1027" timestamp="1589261276025" />
+    <state width="1616" height="280" key="GridCell.Tab.0.right" timestamp="1589261276026">
+      <screen x="0" y="23" width="1635" height="1027" />
+    </state>
+    <state width="1616" height="280" key="GridCell.Tab.0.right/-1200.-847.1200.1897/0.23.1639.1027@0.23.1639.1027" timestamp="1589011128786" />
+    <state width="1616" height="280" key="GridCell.Tab.0.right/0.23.1635.1027@0.23.1635.1027" timestamp="1589261276026" />
+    <state x="491" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1590909471699">
+      <screen x="0" y="23" width="1620" height="1027" />
+    </state>
+    <state x="497" y="369" key="com.intellij.ide.util.TipDialog/-1200.-847.1200.1897/0.23.1639.1027@0.23.1639.1027" timestamp="1589008893707" />
+    <state x="491" y="369" key="com.intellij.ide.util.TipDialog/0.23.1620.1027@0.23.1620.1027" timestamp="1590909471699" />
+  </component>
+</project>

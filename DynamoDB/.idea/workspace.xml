@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aadf3905-c2f2-4db6-81ab-531af57d4eed" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cfB75kHCZVTgYA4wXqadnOvics" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.put_item">
+    <configuration name="delete_item" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DynamoDB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/delete_item.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_member" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DynamoDB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_membername.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="put_item" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DynamoDB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/put_item.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_item" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DynamoDB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/update_item.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.put_item" />
+        <item itemvalue="Python.update_item" />
+        <item itemvalue="Python.delete_item" />
+        <item itemvalue="Python.get_member" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aadf3905-c2f2-4db6-81ab-531af57d4eed" name="Default Changelist" comment="" />
+      <created>1590909596258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590909596258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1599" height="280" key="GridCell.Tab.0.bottom" timestamp="1591263196056">
+      <screen x="0" y="23" width="1625" height="1027" />
+    </state>
+    <state width="1599" height="280" key="GridCell.Tab.0.bottom/0.23.1618.1027@0.23.1618.1027" timestamp="1591084553315" />
+    <state width="1599" height="280" key="GridCell.Tab.0.bottom/0.23.1620.1027@0.23.1620.1027" timestamp="1591087889324" />
+    <state width="1599" height="280" key="GridCell.Tab.0.bottom/0.23.1625.1027@0.23.1625.1027" timestamp="1591263196056" />
+    <state width="1599" height="280" key="GridCell.Tab.0.center" timestamp="1591263196055">
+      <screen x="0" y="23" width="1625" height="1027" />
+    </state>
+    <state width="1599" height="280" key="GridCell.Tab.0.center/0.23.1618.1027@0.23.1618.1027" timestamp="1591084553314" />
+    <state width="1599" height="280" key="GridCell.Tab.0.center/0.23.1620.1027@0.23.1620.1027" timestamp="1591087889324" />
+    <state width="1599" height="280" key="GridCell.Tab.0.center/0.23.1625.1027@0.23.1625.1027" timestamp="1591263196055" />
+    <state width="1599" height="280" key="GridCell.Tab.0.left" timestamp="1591263196054">
+      <screen x="0" y="23" width="1625" height="1027" />
+    </state>
+    <state width="1599" height="280" key="GridCell.Tab.0.left/0.23.1618.1027@0.23.1618.1027" timestamp="1591084553314" />
+    <state width="1599" height="280" key="GridCell.Tab.0.left/0.23.1620.1027@0.23.1620.1027" timestamp="1591087889323" />
+    <state width="1599" height="280" key="GridCell.Tab.0.left/0.23.1625.1027@0.23.1625.1027" timestamp="1591263196054" />
+    <state width="1599" height="280" key="GridCell.Tab.0.right" timestamp="1591263196056">
+      <screen x="0" y="23" width="1625" height="1027" />
+    </state>
+    <state width="1599" height="280" key="GridCell.Tab.0.right/0.23.1618.1027@0.23.1618.1027" timestamp="1591084553315" />
+    <state width="1599" height="280" key="GridCell.Tab.0.right/0.23.1620.1027@0.23.1620.1027" timestamp="1591087889324" />
+    <state width="1599" height="280" key="GridCell.Tab.0.right/0.23.1625.1027@0.23.1625.1027" timestamp="1591263196056" />
+    <state x="486" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1591602044515">
+      <screen x="0" y="23" width="1618" height="1027" />
+    </state>
+    <state x="486" y="369" key="com.intellij.ide.util.TipDialog/0.23.1618.1027@0.23.1618.1027" timestamp="1591602044515" />
+  </component>
+</project>
